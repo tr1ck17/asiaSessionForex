@@ -11,12 +11,15 @@
 - Entry: on valid FVG breakout
 - Retest add-on: price returns into FVG box and does not close through opposite side
 - SL/TP: half of range from entry
-- Risk: $50 initial; $100 total after add-on (assumes $10k)
+- Risk: $50 initial; $100 total after add-on (assumes $10k) (.5% risk, then 1% risk)
 
 ## Open Questions
 - Retest exact rules (close above/below which boundary?)
+  - FVG ranges serve as pick up more order zone
 - One trade per session or multiple?
+  - max of 2 trades per session
 - Market vs limit orders?
+  - market orders on entry, limits set for the top of the FVG's
 
 ## Environment
 - OANDA account: practice/live
